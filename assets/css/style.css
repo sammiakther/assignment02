@@ -1,0 +1,62 @@
+@keyframes g-animation{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    35%{
+        top: -40vh;
+        left: -35vw;
+    }
+    75 %{
+        top: -40vh;
+        left: 60vw;
+    }
+    100 %{
+        top: 0px;
+        left: 0px;
+    }
+}
+.animation-box{
+    background:#eeeeee;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 6em;
+    font-family: 'Roboto', sans-serif ;
+}
+h1 .g{
+    color: #4285F4;
+    position: relative;
+    animation: g-animation 10s 1s linear alternate-reverse;
+
+}
+h1 .o{
+    color: #EA4335;
+    position: relative;
+    animation: g-animation 10s 1s linear alternate-reverse;
+}
+h1 .o2{
+    color: #FCC527;
+    position: relative;
+    animation: g-animation 10s 3s linear alternate-reverse;
+
+}
+h1 .g2{
+    color: #229241;
+    position: relative;
+    animation: g-animation 10s 5s linear alternate-reverse;
+}
+h1 .l{
+    color: #2A9C49;
+    position: relative;
+    animation: g-animation 10s 3s linear alternate-reverse;
+}
+h1 .e{
+    color: #4285F4;
+    position: relative;
+    animation: g-animation 10s 9s linear alternate-reverse ;
+}   
